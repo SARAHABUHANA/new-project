@@ -1,7 +1,10 @@
 
 import { Fragment, useEffect,useState } from 'react';
+<<<<<<< HEAD
 import axios from 'axios';
 import { NextUIProvider } from "@nextui-org/react";
+=======
+>>>>>>> 48440cc (edit profile page)
 import './App.css';
 import Navs from './components/Navs/Navs';
 import Login from './components/Login';

@@ -5,7 +5,11 @@
     
     
     .Profile {
+<<<<<<< HEAD
       margin-top: 0;
+=======
+      margin-top: 30px;
+>>>>>>> 48440cc (edit profile page)
       width: 100%;
       height: 100vh; /* تغيير الارتفاع إلى 100vh لملء الارتفاع الكلي للشاشة */
       background-size: cover; /* تغيير حجم الصورة لضمان أنها تظل كاملة */
@@ -23,6 +27,7 @@
       height: 100%; /* ضمان أن العناصر الداخلية تملأ الارتفاع */
     }
     .sidebar{
+<<<<<<< HEAD
       padding-top: 7%;
 
     }
@@ -38,6 +43,44 @@
     .ProfileData {
       border-left: 1px solid #aa102551;
       padding-top: 5%;
+=======
+      padding-top: 10%;
+      position: static;
+   height: 100%;
+   background-color: #580914;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+width: 10%;
+
+    }
+    .Link-sid {
+      width: 80%; 
+      height: 90px;
+
+     border: none;
+     text-align: center;
+
+      margin-top: 10%;
+      margin-bottom: 10%;
+      font-size:90%;
+      color:#580914 ;
+    }
+    .Link-sid:focus{
+      background-color:#580914 ;
+      color:#eddbdd ;
+    }
+    .Link-sid a{
+     text-decoration: none;
+  
+    }
+    .ProfileData {
+     
+      padding-top: 5%;
+      padding: 40px;
+width: 80%;
+
+>>>>>>> 48440cc (edit profile page)
     }
     .opacity-edit{
       padding-top: 5%;
@@ -85,4 +128,32 @@
       height: 2em;
     }
     
+<<<<<<< HEAD
     
+=======
+
+    
+/*------------------------Media Query----------------------------------------*/
+
+
+  @media(min-width: 601px) and (max-width: 1024px) {
+    .sidebar{
+      display: block;
+      height: 2%;
+      display: flex;
+
+
+    }
+    .opacityProfile{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 30px;
+
+    }
+
+
+
+  }
+ 
+>>>>>>> 48440cc (edit profile page)
