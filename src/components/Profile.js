@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-import React from "react";
-=======
 import React,{ useState } from "react";
->>>>>>> 48440cc (edit profile page)
 import './Css/profile.css';
 import Form from 'react-bootstrap/Form';
 import ProfilePic from '../assets/Profile pic-cuate.png';
 
 import { useTranslation } from 'react-i18next';
 
-<<<<<<< HEAD
-
-=======
 import Navs from './Navs/Navs';
->>>>>>> 48440cc (edit profile page)
 export default function Profile(){
   
       const { t ,i18n } = useTranslation();
@@ -21,41 +13,6 @@ export default function Profile(){
       {
         i18n.changeLanguage(lng);
       };
-<<<<<<< HEAD
-
-     return(
-
-      <div className=" Profile">
-        <div className="row opacityProfile">
-            <div className="col-md-2  sidebar"> 
-              <div className="Link-sid"><a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-badge" viewBox="0 0 16 16">
-  <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-  <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492z"/>
-</svg>   user Info</a></div>
-              <div className="Link-sid"><a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-  <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
-</svg>    Favoirts</a></div>
-              <div className="Link-sid"><a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
-  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
-</svg>    Home</a></div>
-              <div className="Link-sid"><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z"/>
-  <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
-</svg>    Logout </a></div>
-           
-            </div>
-            <div className="col-md-10 ProfileData">
-
-
-
-              
-   <div className=" form">
-            <Form  >
-            <div className=" ImgForm">
-              <div class="profile-pic">
-            <label class="-label" for="file">
-               <span class="glyphicon glyphicon-camera">
-=======
     // حالة لتحديد العنصر المعروض حاليًا
   const [activeId, setActiveId] = useState(null);
 
@@ -99,7 +56,6 @@ export default function Profile(){
               <div className="profile-pic">
             <label className="-label" for="file">
                <span className="glyphicon glyphicon-camera">
->>>>>>> 48440cc (edit profile page)
                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
   <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4z"/>
   <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5m0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
@@ -108,11 +64,7 @@ export default function Profile(){
   
              </label>
              <input id="file" type="file" onchange="loadFile(event)"/>
-<<<<<<< HEAD
-              <img src={ProfilePic} id="output" width="200" />
-=======
               <img src={ProfilePic}  width="200" />
->>>>>>> 48440cc (edit profile page)
                </div>
    </div>
            
@@ -170,9 +122,6 @@ Save <svg xmlns="http://www.w3.org/2000/svg" width="15%" height="15%" fill="curr
     </Form>
     
 
-<<<<<<< HEAD
-    </div>
-=======
     </div>}
 
    
@@ -184,16 +133,11 @@ Save <svg xmlns="http://www.w3.org/2000/svg" width="15%" height="15%" fill="curr
 
 
     
->>>>>>> 48440cc (edit profile page)
             </div>
             </div>
             </div>
           
-<<<<<<< HEAD
-     
-=======
             </div>
->>>>>>> 48440cc (edit profile page)
      );
 
 
