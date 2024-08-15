@@ -1,8 +1,17 @@
 
+<<<<<<< HEAD
 import { Fragment, useEffect,useState } from 'react'
 import axios from 'axios';
 import { NextUIProvider } from "@nextui-org/react";
 
+=======
+import { Fragment, useEffect,useState } from 'react';
+<<<<<<< HEAD
+import axios from 'axios';
+import { NextUIProvider } from "@nextui-org/react";
+=======
+>>>>>>> 48440cc (edit profile page)
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
 import './App.css';
 import Navs from './components/Navs/Navs';
 import Login from './components/Login';

@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Beiruti:wght@200..900&family=Caveat:wght@400..700&family=Changa:wght@200..800&family=Gupter:wght@400;500;700&family=Harmattan:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+=======
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
 * {
       margin: 0;
       box-sizing: border-box;
@@ -7,14 +10,25 @@
     
     
     .Profile {
+<<<<<<< HEAD
       
 
       width: 100%;
       height: 100%; /* تغيير الارتفاع إلى 100vh لملء الارتفاع الكلي للشاشة */
+=======
+<<<<<<< HEAD
+      margin-top: 0;
+=======
+      margin-top: 30px;
+>>>>>>> 48440cc (edit profile page)
+      width: 100%;
+      height: 100vh; /* تغيير الارتفاع إلى 100vh لملء الارتفاع الكلي للشاشة */
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
       background-size: cover; /* تغيير حجم الصورة لضمان أنها تظل كاملة */
     }
     
     .opacityProfile {
+<<<<<<< HEAD
 
       width: 100%;
       height: 100%; /* ضمان أن العنصر يملأ الارتفاع الكلي */
@@ -47,10 +61,58 @@ width: 20%;
        background-color: #ffffff;
        border: none;
      text-align: center;
+=======
+      width: 100%;
+      height: 100%; /* ضمان أن العنصر يملأ الارتفاع الكلي */
+      margin-left: 0px; 
+      background-color: #f8f3f4ba;
+    }
+    
+    .sidebar,
+    .ProfileData {
+      height: 100%; /* ضمان أن العناصر الداخلية تملأ الارتفاع */
+    }
+    .sidebar{
+<<<<<<< HEAD
+      padding-top: 7%;
+
+    }
+    .Link-sid {
+      width: 100%;
+      margin: 20px;
+      padding-left: 10px;
+    }
+    .Link-sid a{
+     text-decoration: none;
+     color:#580914 ;
+    }
+    .ProfileData {
+      border-left: 1px solid #aa102551;
+      padding-top: 5%;
+=======
+      padding-top: 10%;
+      position: static;
+   height: 100%;
+   background-color: #580914;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+width: 10%;
+
+    }
+    .Link-sid {
+      width: 80%; 
+      height: 90px;
+
+     border: none;
+     text-align: center;
+
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
       margin-top: 10%;
       margin-bottom: 10%;
       font-size:90%;
       color:#580914 ;
+<<<<<<< HEAD
      font-weight: bold;
      font-family: "Lato", sans-serif !important;
 
@@ -138,6 +200,29 @@ height: 100%;
     .profile-pic 
     {
       padding-left: 30px;
+=======
+    }
+    .Link-sid:focus{
+      background-color:#580914 ;
+      color:#eddbdd ;
+    }
+    .Link-sid a{
+     text-decoration: none;
+  
+    }
+    .ProfileData {
+     
+      padding-top: 5%;
+      padding: 40px;
+width: 80%;
+
+>>>>>>> 48440cc (edit profile page)
+    }
+    .opacity-edit{
+      padding-top: 5%;
+    }
+    .profile-pic {
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
       color: transparent;
       transition: all 0.3s ease;
       display: flex;
@@ -145,10 +230,13 @@ height: 100%;
       align-items: center;
       position: relative;
       transition: all 0.3s ease;
+<<<<<<< HEAD
       width: 20vw;
       height: 40vh;
       margin-left: 20px;
       
+=======
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
     }
     .profile-pic input {
       display: none;
@@ -156,17 +244,29 @@ height: 100%;
     .profile-pic img {
       position: absolute;
       object-fit: cover;
+<<<<<<< HEAD
       width: 100%;
       height: 100%;
       border: 1px solid #5809145f;
       box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
       border-radius: 50%;
+=======
+      width: 165px;
+      height: 165px;
+      box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+      border-radius: 100px;
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
       z-index: 0;
     }
     .profile-pic .-label {
       cursor: pointer;
+<<<<<<< HEAD
        width: 20vw;
       height: 40vh;
+=======
+      height: 165px;
+      width: 165px;
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
     }
     .profile-pic:hover .-label {
       display: flex;
@@ -176,7 +276,11 @@ height: 100%;
       z-index: 10000;
       color: #fafafa;
       transition: background-color 0.2s ease-in-out;
+<<<<<<< HEAD
       border-radius: 50%;
+=======
+      border-radius: 100px;
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
       margin-bottom: 0;
     }
     .profile-pic span {
@@ -185,6 +289,7 @@ height: 100%;
       height: 2em;
     }
     
+<<<<<<< HEAD
 
     .save-btn{
       margin-top: 30px;
@@ -201,6 +306,11 @@ height: 100%;
     .save-btn:hover{
 background:transparent;
     }
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
 
     
 /*------------------------Media Query----------------------------------------*/
@@ -213,8 +323,25 @@ background:transparent;
       display: flex;
 
 
+<<<<<<< HEAD
 
 
   }}
  
 
+=======
+    }
+    .opacityProfile{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 30px;
+
+    }
+
+
+
+  }
+ 
+>>>>>>> 48440cc (edit profile page)
+>>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
