@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gupter:wght@400;500;700&family=Harmattan:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@400..700&family=Gupter:wght@400;500;700&family=Harmattan:wght@400;500;600;700&display=swap');
+.hero {
+      height: 100vh; /* Using vh for responsiveness */
+      background: url("../../assets/solitary-crimson-chair-offers-pop-color-against-geometric-patterned-backdrop.jpg");
+      background-size: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      margin-bottom: 250px;
+      font-family: "Beiruti", sans-serif;
+      margin-top: 60px;
+      padding: 20px;
+  }
+  
+ 
+  
+
+
+.opacity.row {
+      
+      width: 100%;
+
+}
+.text{
+      margin-top: 10px;
+      
+      height: auto;
+      padding: 40px;
+      padding-left: 40px;
+}
+.text h1{
+      font-size: 50px;
+      font-family: "Acme", sans-serif;
+      color: #cdd7d6;
+}
+.text p{
+      margin-top: 40px;
+      font-size: 30px;
+      letter-spacing: 1px;
+      color: #da9a98;
+      font-family: "Caveat", cursive;
+    
+      width: auto;
+
+}
+.Hero-btn{
+      margin-top: 50px;
+      width: 70%;
+      font-family: "Acme", sans-serif;
+  
+      display: flex;
+      justify-content: space-between;
+}
+.btn1{
+      padding: 8px;
+      width: 150px;
+      border: none;
+      background-color: #d86d2a;
+      color: #1c0302;
+      font-size: 18px;
+      border-radius: 5px;
+}
+.btn1:hover,.btn2:hover{
+      background: transparent;
+      border:1px solid #d86d2a;
+      color: #d86d2a;
+}
+.btn2{
+      padding: 8px;
+      width: 150px;
+      border: none;
+      background-color: #d86d2a;
+      color: #1c0302;
+      font-size: 20px;
+      border-radius: 5px;
+}
+
+
+/* -------------------Media Query --------------------*/
+
+
+
+
+
+
+
+ /*من أجل الشاشات المتوسطة */
+  @media (max-width: 768px) {
+      
+.hero {
+   
+      background: url("../../assets/solitary-crimson-chair-offers-pop-color-against-geometric-patterned-backdrop.jpg");
+      background-size: cover;
+      height:auto;
+      background-repeat: no-repeat;
+  }
+
+
+      .text {
+            font-size: 20px;
+          width: 100%; /* Make text area wider on smaller screens */
+      }
+
+
+
+      .Hero-btn{
+     flex-wrap: wrap;
+     gap: 20px;
+     }
+  }
+
+  
+/*من أجل الشاشات الكبيرة  */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+      
+      .Hero-btn{
+            flex-wrap: wrap;
+            gap: 20px;
+            
+         }}
+      
+  @media (min-width: 1024px) {
+
+      .text {
+          width: 50%; /* Adjust width for larger screens */
+      }
+      
+             
+  }

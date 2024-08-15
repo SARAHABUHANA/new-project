@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Harmattan:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Beiruti:wght@200..900&family=Caveat:wght@400..700&family=Changa:wght@200..800&family=Gupter:wght@400;500;700&family=Harmattan:wght@400;500;600;700&display=swap');
+
+*{
+    
+      box-sizing: border-box;
+
+   
+}
+:root {
+      --animate-duration: 2s;/* Anmation*/
+      --animate__rubberBand:2s;/* Anmation*/
+    }
+/*-----------------------------------------------------------------------*/
+.animate-charcter/* Anmation for Title Text  */
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(-250deg, 
+  #aa1025 0%,
+   #91928c 29%,
+    #a36d5e 67%,
+     #3804029e 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+ 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+    
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/*-----------------------------------------------------------------------*/
+
+
+
+
+/*------------------Start Style for all forms --------------------------------*/
+  .FormPage{
+      margin-top:100px;
+  } 
+.Reg{
+
+     
+     margin-left: 25%;
+     margin-bottom: 100px;
+margin-top: 30px;
+background: url(../../assets/159480862_48982e53-ec1b-455c-84e0-c4d0be71b657.jpg);
+background-size: cover;
+border-radius: 6px;
+      height: auto;
+      width: 50%;
+}
+.opacity-form{
+     background-color: #f7eeee4f;
+      padding: 10px;
+      margin-left: 5px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+ }
+
+.form{
+      width: 45%;
+}
+.Title{
+      text-align: center;
+      padding-bottom: 20px;
+        font-family: "Peralta", serif ;
+        margin-top:20px ;
+        color: #970816;
+}
+.Group{
+   width: 100%;
+      align-items: center;
+      margin-bottom: 5px;
+      display: flex;
+      padding: 10px;
+      justify-content: space-between;
+}
+.Group .bi{
+      margin-top: 7px;
+    color:  #79161d90;
+}
+.Input{
+      border: none;
+      width: 85%;
+      height: 10%;
+      border-bottom:0.5px solid #79161d90;
+      background:#ffffff1d;
+      font-size: 60%;
+}
+.Input:focus{
+      border: none;
+      border-top:1px solid #79161d58;
+      border-bottom:1px solid #79161d58;
+      background:#ffffff33;
+      box-shadow: none;
+}
+.Sub-btn{
+      margin-top: 1px;
+         width: 50%;
+         padding: 6px;
+      margin-left: 27%;
+      background-color: #79161d !important;
+      border: none;
+      border-radius: 5px      ;
+      color: #ffffff;
+      font-size: 80%;
+}
+
+.Sub-btn:hover{
+    background:transparent;
+}
+.Links{ 
+      width: 70%;
+      margin-left: 18%;
+       display: flex;
+       justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+       margin-bottom: 20px;
+      text-align: center;
+
+
+}
+.Link{
+      text-align: center;   
+      margin-bottom: 10px;
+      
+}
+.Links a{
+       text-decoration: underline;
+       font-size: 70%;
+
+      color: #00000090;
+}
+.Back-link{
+      margin-top: 10px;
+      display: flex;
+      width:80%;
+      margin-left: 15%;
+      justify-content: space-between;
+      font-size: 80%;
+}
+.Links a:hover,.Back-link a:hover{
+     
+   text-decoration: underline;
+   color: #79161d;
+   
+}
+.Link-Home{
+      margin-top: 20px;
+    text-align: center;
+
+
+
+}
+.Link-Home a ,.Back-link a{
+  
+    color: #33040490;
+    font-size: 80%;
+text-decoration: none;
+
+}
+
+.Forget-btn{
+margin-left: 15%;
+      display: flex;
+  gap: 40px;
+}
+  .for-btn{
+      width: 90%;
+ }
+
+
+/*------------------ end Style for all forms --------------------------------*/
+
+
+
+/*------------------------Media Query----------------------------------------*/
+
+
+  @media (max-width: 600px) {
+      .Login-btn{
+         margin-left: 20px;
+         margin-top: 10px;
+
+      }
+      .User-menu{
+            right: -80px;
+       
+       }
+        .User-button{
+            margin-top: 15px;
+
+       }
+      
+.Nav a {
+    text-align: left;
+
+}
+      .Reg {
+            margin-left: 10%;
+        width: 80%; /* تعديل عرض ليشمل الشاشات الصغيرة */
+      }
+      .Links,
+      .Link,
+      .Link-Home,
+      .Forget-btn,
+      .for-btn ,
+      .Sub-btn{
+        font-size: 14px; /* تعديل حجم الخط ليشمل الشاشات الصغيرة */
+      }
+      .form{
+            width: 70%;
+            margin-left:13% ;
+      }
+      .Sub-btn{
+            font-size: 79%; 
+            width: 40%;
+      margin-left: 33%;
+
+
+          }
+      .Links{
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+     justify-content: center; }
+     .Back-link{
+      width:80%;
+      margin-left: 15%;
+     }
+    }
+    
+    /* Media Query لشاشات متوسطة */
+    @media (min-width: 601px) and (max-width: 1024px) {
+
+     
+      .Login-btn{
+            margin-left: 20px;
+         margin-top: 10px;
+
+         }
+    
+      .User-menu{
+            right: -80px;
+      }
+            
+.Nav a {
+      text-align: left;
+  
+  }
+  .User-button{
+      margin-top: 15px;
+
+ }
+
+      .Reg {
+            margin-left: 18%;
+
+        width: 60%; /* تعديل عرض ليشمل الشاشات المتوسطة */
+      }
+      
+      .Links,
+  .Link,
+  .Link-Home,
+  .Forget-btn,
+  .for-btn {
+    font-size: 16px; /* تعديل حجم الخط ليشمل الشاشات المتوسطة */
+  }
+
+  .form{
+      width: 70%;
+      margin-left:13% ;
+}
+  @media (min-width: 1025px) {
+      .Login-btn{
+            margin-left: 20px;
+         margin-top: 10px;
+
+         }
+      .User-menu{
+            right: -80px;
+      }
+            
+.Nav a {
+      text-align: left;
+  
+  }
+  .User-button{
+      margin-top: 15px;
+
+ }
+
+      .Reg {
+            margin-left: 18%;
+            width: 40%; 
+      }
+                  .Links,
+                  .Link,
+                  .Link-Home,
+                  .Forget-btn,
+                  .for-btn {
+                    font-size: 18px; /* تعيد حجم الخط الأصلي للأجهزة الكبيرة */
+                  }
+      }
+}
+
+    
+    
+   
+
+
+

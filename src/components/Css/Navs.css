@@ -1,0 +1,188 @@
+.Navbar-div{
+      width: 100%;
+}
+.Navbar{
+      font-family: "Gupter", serif;
+      font-family: "Beiruti", sans-serif;
+      width: 100%;
+     height: 70px;
+      position: fixed;
+      background-color: #ffffff;
+    
+}
+.navbar-toggler:focus{
+      box-shadow: none;
+}
+.container-Navbr{
+      
+      margin:  0;
+      justify-content: space-between;
+    
+      
+      
+}
+.Nav{
+      
+      margin-left: 20px;
+      margin-right: 60px;
+
+}
+
+.Nav a {
+      font-size: 18px;
+
+}
+.Logo{
+      display: flex;
+      margin-left: 20px;
+      
+}
+.Logo-name{
+      font-size: 30px;
+font-weight: 500;
+}
+.Link-Page{
+      display: flex;
+      justify-content: space-between; 
+
+     
+    
+   
+}
+.nav-link{
+     width: 90px;
+     
+     margin-right: 10px;
+     text-align: center;
+    
+  
+}
+.Link{
+      text-decoration: none;
+     padding: 10px;
+      color: #242323;
+     
+}
+#basic-navbar-nav{
+      background-color: #fff;
+}
+.Login-btn{
+      margin-left: 100px;
+      width: 120px;
+      padding: 5px;
+      background-color: #970816;
+      letter-spacing: 2px;
+      color: antiquewhite;
+      text-align: center;
+
+      font-size: 80%;
+
+      font-size: 95%;
+
+      border-radius: 5px;
+}
+.Login-btn:hover{
+background:transparent ;
+color: #970816;
+border: 1px solid #970816;
+}
+.selectBox{
+      border: none;
+      font-size: 13px;
+      margin-left: 30px;
+      
+}
+
+.optionsMenu{
+      padding: 10px;
+      border-radius: 0;
+}
+
+.dropdown {
+      display: inline-block;
+      position: relative;
+    
+     
+    }
+    
+    
+    .User-button {
+      display: inline-block;
+      border:none;
+      border-radius: 4px;
+      padding: 3px 18px 3px 0px;
+      cursor: pointer;
+      margin-left: 30px;
+      margin-right: 10px;
+      white-space: nowrap;
+      border-radius: 50px;
+    }
+    
+    .User-button:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0; 
+      height: 0; 
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid black;
+}
+
+
+
+
+.User-input {
+  display: none;
+}
+
+.User-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  right: 0px;
+  margin: 2px 0 0 0;
+  margin-top: 10px;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+  
+}
+
+.User-input + .User-menu {
+      display: none;
+ 
+    } 
+    
+    .User-input:checked + .User-menu {
+      display: block;
+    } 
+    
+    .User-menu li {
+      padding: 10px 20px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    
+    .User-menu li:hover {
+      background-color: #f6f6f6;
+    }
+    
+    .User-menu li a {
+      display: block;
+      margin: -10px -20px;
+      padding: 10px 20px;
+      text-align: left;
+
+
+      font-size: 100%;
+
+    }
+    
+    .User-menu li.divider{
+      padding: 0;
+      border-bottom: 1px solid #cccccc;
+    }
