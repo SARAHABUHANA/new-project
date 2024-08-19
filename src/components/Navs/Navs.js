@@ -86,7 +86,7 @@ import { BiUserCircle, BiLogOut, BiCog, BiWorld } from 'react-icons/bi';
       <input type="checkbox" className="User-input" id="userOptions" />
 
       <ul className="User-menu">
-        <li><Nav.Link href="/Profile"><BiUserCircle size={16} />{t("Profile")}</Nav.Link></li>
+        <li><Nav.Link href="/Profilepage"><BiUserCircle size={16} />{t("Profile")}</Nav.Link></li>
         <li><Nav.Link href="/logout" onClick={handleLogout}><BiLogOut size={16} /> {t("Logout")}</Nav.Link></li>
         <li><Nav.Link href="/settings"><BiCog size={16} /> {t("Settings")}</Nav.Link></li>
         <li>{t("Language")}: <span onClick={() => changeLanguage('en')}><BiWorld size={16} />Ar</span>, <span onClick={() => changeLanguage('ar')}><BiWorld size={16} />En</span></li>

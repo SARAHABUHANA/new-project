@@ -74,19 +74,9 @@ font-weight: 500;
       letter-spacing: 2px;
       color: antiquewhite;
       text-align: center;
-<<<<<<< HEAD
 
       font-size: 80%;
 
-      font-size: 95%;
-
-=======
-<<<<<<< HEAD
-      font-size: 80%;
-=======
-      font-size: 95%;
->>>>>>> 48440cc (edit profile page)
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
       border-radius: 5px;
 }
 .Login-btn:hover{
@@ -184,17 +174,10 @@ border: 1px solid #970816;
       margin: -10px -20px;
       padding: 10px 20px;
       text-align: left;
-<<<<<<< HEAD
 
 
       font-size: 100%;
 
-=======
-<<<<<<< HEAD
-=======
-      font-size: 100%;
->>>>>>> 48440cc (edit profile page)
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
     }
     
     .User-menu li.divider{

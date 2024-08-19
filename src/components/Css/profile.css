@@ -1,347 +1,173 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Beiruti:wght@200..900&family=Caveat:wght@400..700&family=Changa:wght@200..800&family=Gupter:wght@400;500;700&family=Harmattan:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-=======
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
 * {
-      margin: 0;
-      box-sizing: border-box;
-    }
-    
-    
-    .Profile {
-<<<<<<< HEAD
-      
-
-      width: 100%;
-      height: 100%; /* تغيير الارتفاع إلى 100vh لملء الارتفاع الكلي للشاشة */
-=======
-<<<<<<< HEAD
-      margin-top: 0;
-=======
-      margin-top: 30px;
->>>>>>> 48440cc (edit profile page)
-      width: 100%;
-      height: 100vh; /* تغيير الارتفاع إلى 100vh لملء الارتفاع الكلي للشاشة */
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
-      background-size: cover; /* تغيير حجم الصورة لضمان أنها تظل كاملة */
-    }
-    
-    .opacityProfile {
-<<<<<<< HEAD
-
-      width: 100%;
-      height: 100%; /* ضمان أن العنصر يملأ الارتفاع الكلي */
-      margin-left: 0px; 
-
-    }
-    
-    .sidebar{
-
-      padding-top: 5%;
-width: 20%;
-      display: flex;
-      flex-direction:column ;
-    
-
-    }
-    .Logo-sidebar{
-    
-      flex-wrap: wrap;
-
-    }
-    .Sidebar-btn{
-      margin-top: 20px;
-    }
-    .Link-sid {
-      width: 90%; 
-      height: 50px;
-    
-        margin: 10px;
-       background-color: #ffffff;
-       border: none;
-     text-align: center;
-=======
-      width: 100%;
-      height: 100%; /* ضمان أن العنصر يملأ الارتفاع الكلي */
-      margin-left: 0px; 
-      background-color: #f8f3f4ba;
-    }
-    
-    .sidebar,
-    .ProfileData {
-      height: 100%; /* ضمان أن العناصر الداخلية تملأ الارتفاع */
-    }
-    .sidebar{
-<<<<<<< HEAD
-      padding-top: 7%;
-
-    }
-    .Link-sid {
-      width: 100%;
-      margin: 20px;
-      padding-left: 10px;
-    }
-    .Link-sid a{
-     text-decoration: none;
-     color:#580914 ;
-    }
-    .ProfileData {
-      border-left: 1px solid #aa102551;
-      padding-top: 5%;
-=======
-      padding-top: 10%;
-      position: static;
-   height: 100%;
-   background-color: #580914;
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
-width: 10%;
-
-    }
-    .Link-sid {
-      width: 80%; 
-      height: 90px;
-
-     border: none;
-     text-align: center;
-
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
-      margin-top: 10%;
-      margin-bottom: 10%;
-      font-size:90%;
-      color:#580914 ;
-<<<<<<< HEAD
-     font-weight: bold;
-     font-family: "Lato", sans-serif !important;
-
-    }
-    .Link-sid a{
-     text-decoration: none;
-    
-    }
-    .Link-sid:focus-visible {
-      box-shadow: 0 0 0 0px black; /* المربع الأسود */
-    } 
-    .Link-sid:focus{
-      background-color:transparent ;
-   
-      border: none;
-box-shadow: none;
-
-    }
-    .Link-sidebar {
-
-     text-align: center;
-  margin-top: 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 
-  
-    }
 
-    .Link-sidebar a {
-      text-decoration: none;
-     font-size: 80%;
-   color:#58091483 ;
+.Tabs{
  
-   
-     }
-     .Link-sidebar a:hover {
-      text-decoration: underline;
-     
-   color:#580914d6 ;
- 
-   
-     }
-    
-    .ProfileData {
-      border-left: 1px solid #aa102551;
-      padding-top: 5%;
-  
-       height: 100%;
-       flex-direction: column;
-        gap: 30px;
-      padding: 30px;
-      width: 80%;
-    }
-  
-    .opacity-edit{
-      padding-top: 5%;
-    }
-.Title{
+  padding: 20px;
+  height: 100vh ;
+
+}
+.flex-column{
+  width: 100%;
+  gap:20px;
+}
+.LogoTab{
+  margin-bottom: 20px;
+justify-content: center;
+margin-left: 20px;
+}
+.LinkTab .active{
+  background-color: #79161d !important;
+}
+.LinkTab{
+  margin-bottom: 20px;
+}
+.LinkTab a{
+  text-align: center;
+width: 75%;
+margin-left: 20px;
+color: #79161d;
+
+}
+
+.tab-content{
+  margin-left: 5%  ;
+  margin-right: 5%  ;
+}
+.opacity-edit {
+  padding-top: 5%;
+}
+
+.Title {
   text-align: left;
   padding: 20px;
 }
-.sub-Title{
+
+.sub-Title {
   font-size: 20px;
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-    .User-Info{
 
-      height: 100%;
-      padding: 10px;
-    }
-    .Genaral{
-      height: 100%;
-    }
-    .edit{
+.User-Info {
 
+  height: 80%;
+  padding: 10px;
+}
 
-align-items: center;
-height: 100%;
+.Genaral {
+  height: 100%;
+}
 
+.edit {
 
 
-    }
-   
-    .profile-pic 
-    {
-      padding-left: 30px;
-=======
-    }
-    .Link-sid:focus{
-      background-color:#580914 ;
-      color:#eddbdd ;
-    }
-    .Link-sid a{
-     text-decoration: none;
-  
-    }
-    .ProfileData {
-     
-      padding-top: 5%;
-      padding: 40px;
-width: 80%;
+  align-items: center;
+  height: 100%;
 
->>>>>>> 48440cc (edit profile page)
-    }
-    .opacity-edit{
-      padding-top: 5%;
-    }
-    .profile-pic {
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
-      color: transparent;
-      transition: all 0.3s ease;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      transition: all 0.3s ease;
-<<<<<<< HEAD
-      width: 20vw;
-      height: 40vh;
-      margin-left: 20px;
-      
-=======
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
-    }
-    .profile-pic input {
-      display: none;
-    }
-    .profile-pic img {
-      position: absolute;
-      object-fit: cover;
-<<<<<<< HEAD
-      width: 100%;
-      height: 100%;
-      border: 1px solid #5809145f;
-      box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
-      border-radius: 50%;
-=======
-      width: 165px;
-      height: 165px;
-      box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
-      border-radius: 100px;
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
-      z-index: 0;
-    }
-    .profile-pic .-label {
-      cursor: pointer;
-<<<<<<< HEAD
-       width: 20vw;
-      height: 40vh;
-=======
-      height: 165px;
-      width: 165px;
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
-    }
-    .profile-pic:hover .-label {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: rgba(0, 0, 0, 0.8);
-      z-index: 10000;
-      color: #fafafa;
-      transition: background-color 0.2s ease-in-out;
-<<<<<<< HEAD
-      border-radius: 50%;
-=======
-      border-radius: 100px;
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
-      margin-bottom: 0;
-    }
-    .profile-pic span {
-      display: inline-flex;
-      padding: 0.2em;
-      height: 2em;
-    }
-    
-<<<<<<< HEAD
 
-    .save-btn{
-      margin-top: 30px;
-      width: 15%;
-      padding: 6px;
-   margin-left: 35%;
-   background: #79161d !important;
-   border: none;
-   border-radius: 5px;
-   color: #ffffff;
-   font-size: 80%;
-    }
-       
-    .save-btn:hover{
-background:transparent;
-    }
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
 
-    
+}
+
+.profile-pic {
+  padding-left: 30px;
+}
+
+.opacity-edit {
+  padding-top: 5%;
+}
+
+.profile-pic {
+  color: transparent;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s ease;
+  width: 20vw;
+  height: 40vh;
+  margin-left: 20px;
+
+}
+
+.profile-pic input {
+  display: none;
+}
+
+.profile-pic img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #5809145f;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.profile-pic .-label {
+  cursor: pointer;
+  width: 20vw;
+  height: 40vh;
+}
+
+.profile-pic:hover .-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10000;
+  color: #fafafa;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+
+.profile-pic span {
+  display: inline-flex;
+  padding: 0.2em;
+  height: 2em;
+}
+
+
+.save-btn {
+  margin-top: 30px;
+  width: 15%;
+  padding: 6px;
+  margin-left: 35%;
+  background: #79161d !important;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 80%;
+}
+
+.save-btn:hover {
+  background: transparent;
+}
+
+
+
+
 /*------------------------Media Query----------------------------------------*/
 
 
-  @media(min-width: 601px) and (max-width: 1024px) {
-    .sidebar{
-      display: block;
-      height: 2%;
-      display: flex;
+@media(min-width: 601px) and (max-width: 1024px) {
+  .sidebar {
+    display: block;
+    height: 2%;
+    display: flex;
 
-
-<<<<<<< HEAD
-
-
-  }}
- 
-
-=======
-    }
-    .opacityProfile{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      gap: 30px;
-
-    }
 
 
 
   }
- 
->>>>>>> 48440cc (edit profile page)
->>>>>>> 15a8092ec7aaa3c189bd274c09a9e94081d27183
+}

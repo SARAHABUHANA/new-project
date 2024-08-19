@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import "./Css/style.css";
+import './Css/Table.css';
 //import { useRouter } from 'next/router';
 import { SplitButton } from 'primereact/splitbutton';
 import { Toast } from 'primereact/toast';
@@ -113,13 +113,13 @@ export default function Table() {
 
         const items = [
             {
-                label: 'ExpoetPDF',
+                label: 'PDF',
                 icon: 'pi pi-file-pdf',
                 command: exportPdf ,
             },
          
             {
-                label: 'ExpoetToExel',
+                label: ' Exel',
                 icon: "pi pi-file-excel",
                 command: exportExcel ,
             },
@@ -287,9 +287,9 @@ export default function Table() {
 
     const leftToolbarTemplate = () => {
         return (
-            <div className="flex flex-wrap gap-6">
-                <Button label="New" icon="pi pi-plus" severity="success" onClick={openNew} />
-                <Button label="Delete" icon="pi pi-trash" severity="danger" onClick={confirmDeleteSelected} disabled={!selectedProducts || !selectedProducts.length} />
+            <div className="leftToolbar">
+                <Button className="Button-New" label="New" icon="pi pi-plus" severity="warning" rounded  onClick={openNew} />
+                <Button className="Button-Delete"  label="Delete" icon="pi pi-trash" severity="secondary" onClick={confirmDeleteSelected} disabled={!selectedProducts || !selectedProducts.length} />
             </div>
         );
     };
@@ -297,16 +297,16 @@ export default function Table() {
     const rightToolbarTemplate = () => {
       return (
         <div className="card flex justify-content-center">
-          <Toast ref={toast}></Toast>
+          <Toast   ref={toast}></Toast>
           <SplitButton 
-            type="button" 
-            icon="pi pi-file" 
-            rounded 
-            label="option" 
-            data-pr-tooltip="option"
-            model={items}
-          />
-        
+          label="Save" 
+          icon="pi pi-plus" 
+          onClick={save}
+           model={items} 
+           size="small"
+           severity="warning"  rounded  
+           outlined
+           />
          
         </div>
       );
@@ -354,15 +354,16 @@ export default function Table() {
         }
     };
 
-    const header = (
-        <div className="flex flex-wrap gap-2 align-items-center justify-content-between">
-            <h4 className="m-0">Manage Products</h4>
-            <IconField iconPosition="left">
-                <InputIcon className="pi pi-search" />
-                <InputText type="search" onInput={(e) => setGlobalFilter(e.target.value)} placeholder="Search..." />
-            </IconField>
-        </div>
-    );
+        const header = (
+            <div className="HeaderTable ">
+                <h4 className="m-2">Manage Products</h4>
+            
+                <IconField iconPosition="right">
+                    <InputIcon className="pi pi-search Icon-search" />
+                    <InputText type="search" onInput={(e) => setGlobalFilter(e.target.value)} placeholder="Search..." />
+                </IconField>
+            </div>
+        );
     const productDialogFooter = (
         <React.Fragment>
             <Button label="Cancel" icon="pi pi-times" outlined onClick={hideDialog} />

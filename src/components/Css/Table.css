@@ -1,0 +1,40 @@
+.p-toolbar{
+      background-color: beige !important;
+      flex-wrap: wrap;
+     
+}
+.p-toolbar-group-left{
+      width: 250px;
+      
+
+}
+.items {
+      background-color: black !important;
+}
+
+ .leftToolbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+     width: 100%;
+ }
+
+    .splitbutton{
+      background-color: black !important;
+
+    }
+ 
+
+ .HeaderTable{
+   
+      display: flex;
+      justify-content: space-between;
+
+ }
+ .Button-New, .Button-Delete{
+      width: 150px;
+padding: 10px;
+border: none;
+border-radius: 20px;
+ }
+
